@@ -1,1 +1,1 @@
-SELECT MAX(price) FROM books;
+SELECT MAX(stock) FROM books;
