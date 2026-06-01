@@ -1,3 +1,3 @@
-SELECT colonne, SUM(genre)
+SELECT genre, SUM(stock)
 FROM books
-GROUP BY colonne;
+GROUP BY genre;
