@@ -1,3 +1,3 @@
 UPDATE books
-SET stock = stock + 5    ← AJOUTE !
-WHERE published_year < 2000;
+SET price = 35.00
+WHERE id = 3;
