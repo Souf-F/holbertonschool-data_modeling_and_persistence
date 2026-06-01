@@ -1,3 +1,3 @@
-SELECT colonne, COUNT(*)
-FROM table
-GROUP BY colonne;
+SELECT genre, COUNT(*)
+FROM books
+GROUP BY genre;
