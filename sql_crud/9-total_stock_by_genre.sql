@@ -1,3 +1,3 @@
 SELECT colonne, SUM(genre)
-FROM table
+FROM books
 GROUP BY colonne;

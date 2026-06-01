@@ -1,3 +1,3 @@
-SELECT colonne, AVG(books)
-FROM table
-GROUP BY colonne;
+SELECT genre, AVG(price)
+FROM books
+GROUP BY genre;
